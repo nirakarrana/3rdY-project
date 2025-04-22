@@ -12,6 +12,7 @@ type car = {
   image: string;
 };
 
+
 function Home() {
   const token = localStorage.getItem('token');
   if (!token) {
